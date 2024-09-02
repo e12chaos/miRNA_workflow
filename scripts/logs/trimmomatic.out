@@ -1,0 +1,818 @@
+RUNNING TRIMMOMATIC
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_10_Rat_166_intact_BAT_Vehicle_S10_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_10_Rat_166_intact_BAT_Vehicle_S10_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_10_Rat_166_intact_BAT_Vehicle_S10_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 37561630 Surviving: 37494164 (99.82%) Dropped: 67466 (0.18%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_11_Rat_95_BATx_Leptin_S11_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_11_Rat_95_BATx_Leptin_S11_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_11_Rat_95_BATx_Leptin_S11_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 29014295 Surviving: 28956051 (99.80%) Dropped: 58244 (0.20%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_12_Rat_148_BATx_Leptin_S12_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_12_Rat_148_BATx_Leptin_S12_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_12_Rat_148_BATx_Leptin_S12_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 24179354 Surviving: 24129584 (99.79%) Dropped: 49770 (0.21%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_13_Rat_152_BATx_Leptin_S13_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_13_Rat_152_BATx_Leptin_S13_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_13_Rat_152_BATx_Leptin_S13_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 26913672 Surviving: 26860314 (99.80%) Dropped: 53358 (0.20%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_14_Rat_157_BATx_Leptin_S14_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_14_Rat_157_BATx_Leptin_S14_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_14_Rat_157_BATx_Leptin_S14_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 23032562 Surviving: 22984864 (99.79%) Dropped: 47698 (0.21%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_15_Rat_164_BATx_Leptin_S15_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_15_Rat_164_BATx_Leptin_S15_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_15_Rat_164_BATx_Leptin_S15_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 25954129 Surviving: 25903960 (99.81%) Dropped: 50169 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_16_Rat_53_BATsx_Leptin_S16_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_16_Rat_53_BATsx_Leptin_S16_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_16_Rat_53_BATsx_Leptin_S16_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 25879229 Surviving: 25826832 (99.80%) Dropped: 52397 (0.20%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_17_Rat_71_BATsx_Leptin_S17_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_17_Rat_71_BATsx_Leptin_S17_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_17_Rat_71_BATsx_Leptin_S17_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 31397092 Surviving: 31341462 (99.82%) Dropped: 55630 (0.18%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_18_Rat_101_BATsx_Leptin_S18_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_18_Rat_101_BATsx_Leptin_S18_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_18_Rat_101_BATsx_Leptin_S18_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 26223196 Surviving: 26175808 (99.82%) Dropped: 47388 (0.18%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_19_Rat_132_BATsx_Leptin_S19_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_19_Rat_132_BATsx_Leptin_S19_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_19_Rat_132_BATsx_Leptin_S19_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 21928603 Surviving: 21892461 (99.84%) Dropped: 36142 (0.16%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_1_Rat_60_intact_BAT_Leptin_S1_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_1_Rat_60_intact_BAT_Leptin_S1_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_1_Rat_60_intact_BAT_Leptin_S1_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 24523725 Surviving: 24466127 (99.77%) Dropped: 57598 (0.23%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_20_Rat_155_BATsx_Leptin_S20_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_20_Rat_155_BATsx_Leptin_S20_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_20_Rat_155_BATsx_Leptin_S20_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 25049625 Surviving: 25007425 (99.83%) Dropped: 42200 (0.17%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_21_Sham_1_Sham_S21_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_21_Sham_1_Sham_S21_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_21_Sham_1_Sham_S21_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 25437901 Surviving: 25391550 (99.82%) Dropped: 46351 (0.18%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_22_Sham_3_Sham_S22_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_22_Sham_3_Sham_S22_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_22_Sham_3_Sham_S22_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 19158314 Surviving: 19125403 (99.83%) Dropped: 32911 (0.17%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_23_Sham_4_Sham_S23_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_23_Sham_4_Sham_S23_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_23_Sham_4_Sham_S23_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 25791829 Surviving: 25747377 (99.83%) Dropped: 44452 (0.17%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_24_Sham_5_Sham_S24_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_24_Sham_5_Sham_S24_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_24_Sham_5_Sham_S24_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 26382784 Surviving: 26329510 (99.80%) Dropped: 53274 (0.20%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_25_Sham_6_Sham_S25_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_25_Sham_6_Sham_S25_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_25_Sham_6_Sham_S25_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 25962231 Surviving: 25924720 (99.86%) Dropped: 37511 (0.14%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_26_Rat_60_Leptin_S26_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_26_Rat_60_Leptin_S26_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_26_Rat_60_Leptin_S26_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 27433103 Surviving: 27359391 (99.73%) Dropped: 73712 (0.27%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_27_Rat_54_Leptin_S27_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_27_Rat_54_Leptin_S27_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_27_Rat_54_Leptin_S27_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 25421802 Surviving: 25373020 (99.81%) Dropped: 48782 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_28_Rat_35_Leptin_S28_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_28_Rat_35_Leptin_S28_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_28_Rat_35_Leptin_S28_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 28265451 Surviving: 28214184 (99.82%) Dropped: 51267 (0.18%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_29_Rat_34_Leptin_S29_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_29_Rat_34_Leptin_S29_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_29_Rat_34_Leptin_S29_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 28148884 Surviving: 28094234 (99.81%) Dropped: 54650 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_2_Rat_61_intact_BAT_Leptin_S2_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_2_Rat_61_intact_BAT_Leptin_S2_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_2_Rat_61_intact_BAT_Leptin_S2_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 32294621 Surviving: 32226658 (99.79%) Dropped: 67963 (0.21%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_30_Rat_36_Vehicle_S30_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_30_Rat_36_Vehicle_S30_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_30_Rat_36_Vehicle_S30_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 25889687 Surviving: 25836949 (99.80%) Dropped: 52738 (0.20%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_31_Rat_168_Vehicle_S31_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_31_Rat_168_Vehicle_S31_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_31_Rat_168_Vehicle_S31_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 26126986 Surviving: 26075984 (99.80%) Dropped: 51002 (0.20%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_32_Rat_169_Vehicle_S32_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_32_Rat_169_Vehicle_S32_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_32_Rat_169_Vehicle_S32_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 27268157 Surviving: 27216818 (99.81%) Dropped: 51339 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_33_Rat_171_Vehicle_S33_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_33_Rat_171_Vehicle_S33_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_33_Rat_171_Vehicle_S33_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 44180579 Surviving: 44062575 (99.73%) Dropped: 118004 (0.27%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_34_Rat_85_BATsx_vehicle_S34_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_34_Rat_85_BATsx_vehicle_S34_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_34_Rat_85_BATsx_vehicle_S34_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 31006165 Surviving: 30947123 (99.81%) Dropped: 59042 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_35_Rat_89_BATsx_vehicle_S35_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_35_Rat_89_BATsx_vehicle_S35_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_35_Rat_89_BATsx_vehicle_S35_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 24027179 Surviving: 23985564 (99.83%) Dropped: 41615 (0.17%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_36_Rat_109_BATsx_vehicle_S36_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_36_Rat_109_BATsx_vehicle_S36_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_36_Rat_109_BATsx_vehicle_S36_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 26566830 Surviving: 26515167 (99.81%) Dropped: 51663 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_37_Rat_142_BATsx_vehicle_S37_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_37_Rat_142_BATsx_vehicle_S37_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_37_Rat_142_BATsx_vehicle_S37_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 28170512 Surviving: 28093975 (99.73%) Dropped: 76537 (0.27%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_38_Rat_29_BATsx_leptin_S38_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_38_Rat_29_BATsx_leptin_S38_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_38_Rat_29_BATsx_leptin_S38_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 32235848 Surviving: 32171241 (99.80%) Dropped: 64607 (0.20%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_39_Rat_101_BATsx_leptin_S39_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_39_Rat_101_BATsx_leptin_S39_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_39_Rat_101_BATsx_leptin_S39_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 19055265 Surviving: 19019635 (99.81%) Dropped: 35630 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_3_Rat_62_intact_BAT_Leptin_S3_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_3_Rat_62_intact_BAT_Leptin_S3_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_3_Rat_62_intact_BAT_Leptin_S3_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 1480587 Surviving: 1477607 (99.80%) Dropped: 2980 (0.20%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_40_Rat_155_BATsx_leptin_S40_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_40_Rat_155_BATsx_leptin_S40_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_40_Rat_155_BATsx_leptin_S40_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 22062221 Surviving: 22020164 (99.81%) Dropped: 42057 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_41_Rat_156_BATsx_leptin_S41_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_41_Rat_156_BATsx_leptin_S41_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_41_Rat_156_BATsx_leptin_S41_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 20683134 Surviving: 20644089 (99.81%) Dropped: 39045 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_42_Rat_64_Sham_S42_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_42_Rat_64_Sham_S42_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_42_Rat_64_Sham_S42_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 23339622 Surviving: 23286399 (99.77%) Dropped: 53223 (0.23%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_43_Rat_23_Sham_S43_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_43_Rat_23_Sham_S43_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_43_Rat_23_Sham_S43_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 22705400 Surviving: 22662372 (99.81%) Dropped: 43028 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_44_Rat_22_Sham_S44_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_44_Rat_22_Sham_S44_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_44_Rat_22_Sham_S44_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 26667284 Surviving: 26619725 (99.82%) Dropped: 47559 (0.18%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_45_Rat_33_Sham_S45_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_45_Rat_33_Sham_S45_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_45_Rat_33_Sham_S45_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 27231977 Surviving: 27177534 (99.80%) Dropped: 54443 (0.20%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_46_Rat_61_EV_test_S46_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_46_Rat_61_EV_test_S46_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_46_Rat_61_EV_test_S46_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 23864210 Surviving: 23819720 (99.81%) Dropped: 44490 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_47_Rat_64_EV_test_S47_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_47_Rat_64_EV_test_S47_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_47_Rat_64_EV_test_S47_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 24256438 Surviving: 24186874 (99.71%) Dropped: 69564 (0.29%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_48_Rat_78_EV_test_S48_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_48_Rat_78_EV_test_S48_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_48_Rat_78_EV_test_S48_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 22885695 Surviving: 22841696 (99.81%) Dropped: 43999 (0.19%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_4_Rat_56_intact_BAT_Leptin_S4_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_4_Rat_56_intact_BAT_Leptin_S4_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_4_Rat_56_intact_BAT_Leptin_S4_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 25668306 Surviving: 25618127 (99.80%) Dropped: 50179 (0.20%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_5_Rat_120__intact_BAT_Leptin_S5_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_5_Rat_120__intact_BAT_Leptin_S5_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_5_Rat_120__intact_BAT_Leptin_S5_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 20671234 Surviving: 20634189 (99.82%) Dropped: 37045 (0.18%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_6_Rat_36_intact_BAT_Vehicle_S6_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_6_Rat_36_intact_BAT_Vehicle_S6_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_6_Rat_36_intact_BAT_Vehicle_S6_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 25277856 Surviving: 25233178 (99.82%) Dropped: 44678 (0.18%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_7_Rat_40_intact_BAT_Vehicle_S7_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_7_Rat_40_intact_BAT_Vehicle_S7_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_7_Rat_40_intact_BAT_Vehicle_S7_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 33108252 Surviving: 33042342 (99.80%) Dropped: 65910 (0.20%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_8_Rat_135_intact_BAT_Vehicle_S8_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_8_Rat_135_intact_BAT_Vehicle_S8_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_8_Rat_135_intact_BAT_Vehicle_S8_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 25255195 Surviving: 25202176 (99.79%) Dropped: 53019 (0.21%)
+TrimmomaticSE: Completed successfully
+Running Trimmomatic on ../P1432_cutadapt_results/P1432_9_Rat_136_intact_BAT_Vehicle_S9_L001_R1_001_trimmed.fastq.gz...
+TrimmomaticSE: Started with arguments:
+ -threads 8 ../P1432_cutadapt_results/P1432_9_Rat_136_intact_BAT_Vehicle_S9_L001_R1_001_trimmed.fastq.gz ../P1432_trimmomatic_output/P1432_9_Rat_136_intact_BAT_Vehicle_S9_L001_R1_001_trimmed_trimmed.fastq.gz ILLUMINACLIP:adapters.fasta/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18
+java.io.FileNotFoundException: /scratch/aitken.n/data/miRNA/scripts/adapters.fasta/TruSeq3-SE.fa (Not a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticSE.run(TrimmomaticSE.java:318)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:85)
+Quality encoding detected as phred33
+Input Reads: 27786091 Surviving: 27735818 (99.82%) Dropped: 50273 (0.18%)
+TrimmomaticSE: Completed successfully
+Trimmomatic analysis complete. Trimmed files are saved in ../P1432_trimmomatic_output.

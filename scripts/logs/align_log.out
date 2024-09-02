@@ -1,0 +1,1940 @@
+Settings:
+  Output files: "reference_genome_bowtie.*.ebwt"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 5 (one in 32)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  Rattus_norvegicus.mRatBN7.2.cdna.all.fa
+Reading reference sizes
+  Time reading reference sizes: 00:00:01
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:01
+bmax according to bmaxDivN setting: 33129445
+Using parameters --bmax 24847084 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 24847084 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:04
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:01
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+  Binary sorting into buckets
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Binary sorting into buckets time: 00:00:05
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 2, merged 6; iterating...
+  Binary sorting into buckets
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Binary sorting into buckets time: 00:00:03
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 2; iterating...
+  Binary sorting into buckets
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Binary sorting into buckets time: 00:00:04
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 1.89311e+07 (target: 24847083)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:01
+  Sorting block of length 10606109
+  (Using difference cover)
+  Sorting block time: 00:00:18
+Returning block of 10606110
+Getting block 2 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:02
+  Sorting block of length 21340029
+  (Using difference cover)
+  Sorting block time: 00:00:36
+Returning block of 21340030
+Getting block 3 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:02
+  Sorting block of length 22103142
+  (Using difference cover)
+  Sorting block time: 00:00:36
+Returning block of 22103143
+Getting block 4 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:02
+  Sorting block of length 21055137
+  (Using difference cover)
+  Sorting block time: 00:00:34
+Returning block of 21055138
+Getting block 5 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:02
+  Sorting block of length 24593995
+  (Using difference cover)
+  Sorting block time: 00:00:40
+Returning block of 24593996
+Getting block 6 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:01
+  Sorting block of length 19919376
+  (Using difference cover)
+  Sorting block time: 00:00:32
+Returning block of 19919377
+Getting block 7 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:01
+  Sorting block of length 12899987
+  (Using difference cover)
+  Sorting block time: 00:00:20
+Returning block of 12899988
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 34548518
+fchr[G]: 67193932
+fchr[T]: 100285230
+fchr[$]: 132517781
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 54718524 bytes to primary EBWT file: reference_genome_bowtie.1.ebwt
+Wrote 16564728 bytes to secondary EBWT file: reference_genome_bowtie.2.ebwt
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 132517781
+    bwtLen: 132517782
+    sz: 33129446
+    bwtSz: 33129446
+    lineRate: 6
+    linesPerSide: 1
+    offRate: 5
+    offMask: 0xffffffe0
+    isaRate: -1
+    isaMask: 0xffffffff
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 4141181
+    offsSz: 16564724
+    isaLen: 0
+    isaSz: 0
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 56
+    sideBwtLen: 224
+    numSidePairs: 295799
+    numSides: 591598
+    numLines: 591598
+    ebwtTotLen: 37862272
+    ebwtTotSz: 37862272
+    reverse: 0
+Total time for call to driver() for forward index: 00:04:16
+Reading reference sizes
+  Time reading reference sizes: 00:00:01
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:01
+bmax according to bmaxDivN setting: 33129445
+Using parameters --bmax 24847084 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 24847084 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:04
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:01
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+  Binary sorting into buckets
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Binary sorting into buckets time: 00:00:05
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 2, merged 6; iterating...
+  Binary sorting into buckets
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Binary sorting into buckets time: 00:00:03
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 1.89311e+07 (target: 24847083)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:01
+  Sorting block of length 23536083
+  (Using difference cover)
+  Sorting block time: 00:00:39
+Returning block of 23536084
+Getting block 2 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:01
+  Sorting block of length 17626303
+  (Using difference cover)
+  Sorting block time: 00:00:29
+Returning block of 17626304
+Getting block 3 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:01
+  Sorting block of length 23310974
+  (Using difference cover)
+  Sorting block time: 00:00:37
+Returning block of 23310975
+Getting block 4 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:02
+  Sorting block of length 21729871
+  (Using difference cover)
+  Sorting block time: 00:00:35
+Returning block of 21729872
+Getting block 5 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:02
+  Sorting block of length 9520341
+  (Using difference cover)
+  Sorting block time: 00:00:15
+Returning block of 9520342
+Getting block 6 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:01
+  Sorting block of length 19997491
+  (Using difference cover)
+  Sorting block time: 00:00:32
+Returning block of 19997492
+Getting block 7 of 7
+  Reserving size (24847084) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:01
+  Sorting block of length 16796712
+  (Using difference cover)
+  Sorting block time: 00:00:27
+Returning block of 16796713
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 34548518
+fchr[G]: 67193932
+fchr[T]: 100285230
+fchr[$]: 132517781
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 54718524 bytes to primary EBWT file: reference_genome_bowtie.rev.1.ebwt
+Wrote 16564728 bytes to secondary EBWT file: reference_genome_bowtie.rev.2.ebwt
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 132517781
+    bwtLen: 132517782
+    sz: 33129446
+    bwtSz: 33129446
+    lineRate: 6
+    linesPerSide: 1
+    offRate: 5
+    offMask: 0xffffffe0
+    isaRate: -1
+    isaMask: 0xffffffff
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 4141181
+    offsSz: 16564724
+    isaLen: 0
+    isaSz: 0
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 56
+    sideBwtLen: 224
+    numSidePairs: 295799
+    numSides: 591598
+    numLines: 591598
+    ebwtTotLen: 37862272
+    ebwtTotSz: 37862272
+    reverse: 0
+Total time for backward call to driver() for mirror index: 00:04:07
+Settings:
+  Output files: "reference_genome_bowtie2.*.bt2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  Rattus_norvegicus.mRatBN7.2.cdna.all.fa
+Building a SMALL index
+Reading reference sizes
+  Time reading reference sizes: 00:00:02
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+bmax according to bmaxDivN setting: 33129445
+Using parameters --bmax 24847084 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 24847084 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:05
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:01
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 2, merged 6; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 1.47242e+07 (target: 24847083)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 9
+  Reserving size (24847084) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 10606109 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:12
+Returning block of 10606110 for bucket 1
+Getting block 2 of 9
+  Reserving size (24847084) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 21340029 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:25
+Returning block of 21340030 for bucket 2
+Getting block 3 of 9
+  Reserving size (24847084) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 15818170 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:17
+Returning block of 15818171 for bucket 3
+Getting block 4 of 9
+  Reserving size (24847084) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 19804420 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:21
+Returning block of 19804421 for bucket 4
+Getting block 5 of 9
+  Reserving size (24847084) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 7535688 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:08
+Returning block of 7535689 for bucket 5
+Getting block 6 of 9
+  Reserving size (24847084) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 24593995 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:26
+Returning block of 24593996 for bucket 6
+Getting block 7 of 9
+  Reserving size (24847084) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 4421090 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:05
+Returning block of 4421091 for bucket 7
+Getting block 8 of 9
+  Reserving size (24847084) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 21565425 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:23
+Returning block of 21565426 for bucket 8
+Getting block 9 of 9
+  Reserving size (24847084) for bucket 9
+  Calculating Z arrays for bucket 9
+  Entering block accumulator loop for bucket 9:
+  bucket 9: 10%
+  bucket 9: 20%
+  bucket 9: 30%
+  bucket 9: 40%
+  bucket 9: 50%
+  bucket 9: 60%
+  bucket 9: 70%
+  bucket 9: 80%
+  bucket 9: 90%
+  bucket 9: 100%
+  Sorting block of length 6832847 for bucket 9
+  (Using difference cover)
+  Sorting block time: 00:00:08
+Returning block of 6832848 for bucket 9
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 34548518
+fchr[G]: 67193932
+fchr[T]: 100285230
+fchr[$]: 132517781
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 61028860 bytes to primary EBWT file: reference_genome_bowtie2.1.bt2.tmp
+Wrote 33129452 bytes to secondary EBWT file: reference_genome_bowtie2.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 132517781
+    bwtLen: 132517782
+    sz: 33129446
+    bwtSz: 33129446
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 8282362
+    offsSz: 33129448
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 690197
+    numLines: 690197
+    ebwtTotLen: 44172608
+    ebwtTotSz: 44172608
+    color: 0
+    reverse: 0
+Total time for call to driver() for forward index: 00:03:08
+Reading reference sizes
+  Time reading reference sizes: 00:00:01
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:01
+  Time to reverse reference sequence: 00:00:00
+bmax according to bmaxDivN setting: 33129445
+Using parameters --bmax 24847084 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 24847084 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:05
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:01
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:01
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 2, merged 6; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 2; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 1.65647e+07 (target: 24847083)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 8
+  Reserving size (24847084) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 18469354 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:21
+Returning block of 18469355 for bucket 1
+Getting block 2 of 8
+  Reserving size (24847084) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 9785367 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:11
+Returning block of 9785368 for bucket 2
+Getting block 3 of 8
+  Reserving size (24847084) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 16993628 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:18
+Returning block of 16993629 for bucket 3
+Getting block 4 of 8
+  Reserving size (24847084) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 11978605 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:13
+Returning block of 11978606 for bucket 4
+Getting block 5 of 8
+  Reserving size (24847084) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 22200975 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:24
+Returning block of 22200976 for bucket 5
+Getting block 6 of 8
+  Reserving size (24847084) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 16754603 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:17
+Returning block of 16754604 for bucket 6
+Getting block 7 of 8
+  Reserving size (24847084) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 15048562 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:16
+Returning block of 15048563 for bucket 7
+Getting block 8 of 8
+  Reserving size (24847084) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 21286680 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:22
+Returning block of 21286681 for bucket 8
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 34548518
+fchr[G]: 67193932
+fchr[T]: 100285230
+fchr[$]: 132517781
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 61028860 bytes to primary EBWT file: reference_genome_bowtie2.rev.1.bt2.tmp
+Wrote 33129452 bytes to secondary EBWT file: reference_genome_bowtie2.rev.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 132517781
+    bwtLen: 132517782
+    sz: 33129446
+    bwtSz: 33129446
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 8282362
+    offsSz: 33129448
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 690197
+    numLines: 690197
+    ebwtTotLen: 44172608
+    ebwtTotSz: 44172608
+    color: 0
+    reverse: 1
+Total time for backward call to driver() for mirror index: 00:03:04
+Renaming reference_genome_bowtie2.3.bt2.tmp to reference_genome_bowtie2.3.bt2
+Renaming reference_genome_bowtie2.4.bt2.tmp to reference_genome_bowtie2.4.bt2
+Renaming reference_genome_bowtie2.1.bt2.tmp to reference_genome_bowtie2.1.bt2
+Renaming reference_genome_bowtie2.2.bt2.tmp to reference_genome_bowtie2.2.bt2
+Renaming reference_genome_bowtie2.rev.1.bt2.tmp to reference_genome_bowtie2.rev.1.bt2
+Renaming reference_genome_bowtie2.rev.2.bt2.tmp to reference_genome_bowtie2.rev.2.bt2
+Processing P1432_10_Rat_166_intact_BAT_Vehicle_S10_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_10_Rat_166_intact_BAT_Vehicle_S10_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_10_Rat_166_intact_BAT_Vehicle_S10_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_10_Rat_166_intact_BAT_Vehicle_S10_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_10_Rat_166_intact_BAT_Vehicle_S10_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_16626
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 37494164	4289039	33205125	11.439	88.561
+seq: 37494164	4289039	33205125	11.439	88.561
+Completed processing P1432_10_Rat_166_intact_BAT_Vehicle_S10_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_10_Rat_166_intact_BAT_Vehicle_S10_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_10_Rat_166_intact_BAT_Vehicle_S10_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_11_Rat_95_BATx_Leptin_S11_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_11_Rat_95_BATx_Leptin_S11_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_11_Rat_95_BATx_Leptin_S11_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_11_Rat_95_BATx_Leptin_S11_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_11_Rat_95_BATx_Leptin_S11_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_26892
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 28956051	4327227	24628824	14.944	85.056
+seq: 28956051	4327227	24628824	14.944	85.056
+Completed processing P1432_11_Rat_95_BATx_Leptin_S11_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_11_Rat_95_BATx_Leptin_S11_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_11_Rat_95_BATx_Leptin_S11_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_12_Rat_148_BATx_Leptin_S12_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_12_Rat_148_BATx_Leptin_S12_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_12_Rat_148_BATx_Leptin_S12_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_12_Rat_148_BATx_Leptin_S12_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_12_Rat_148_BATx_Leptin_S12_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_29458
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 24129584	2492782	21636802	10.331	89.669
+seq: 24129584	2492782	21636802	10.331	89.669
+Completed processing P1432_12_Rat_148_BATx_Leptin_S12_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_12_Rat_148_BATx_Leptin_S12_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_12_Rat_148_BATx_Leptin_S12_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_13_Rat_152_BATx_Leptin_S13_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_13_Rat_152_BATx_Leptin_S13_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_13_Rat_152_BATx_Leptin_S13_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_13_Rat_152_BATx_Leptin_S13_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_13_Rat_152_BATx_Leptin_S13_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_30739
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 26860314	2580947	24279367	9.609	90.391
+seq: 26860314	2580947	24279367	9.609	90.391
+Completed processing P1432_13_Rat_152_BATx_Leptin_S13_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_13_Rat_152_BATx_Leptin_S13_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_13_Rat_152_BATx_Leptin_S13_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_14_Rat_157_BATx_Leptin_S14_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_14_Rat_157_BATx_Leptin_S14_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_14_Rat_157_BATx_Leptin_S14_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_14_Rat_157_BATx_Leptin_S14_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_14_Rat_157_BATx_Leptin_S14_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_31924
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 22984864	2435808	20549056	10.597	89.403
+seq: 22984864	2435808	20549056	10.597	89.403
+Completed processing P1432_14_Rat_157_BATx_Leptin_S14_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_14_Rat_157_BATx_Leptin_S14_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_14_Rat_157_BATx_Leptin_S14_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_15_Rat_164_BATx_Leptin_S15_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_15_Rat_164_BATx_Leptin_S15_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_15_Rat_164_BATx_Leptin_S15_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_15_Rat_164_BATx_Leptin_S15_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_15_Rat_164_BATx_Leptin_S15_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_32883
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 25903960	2646074	23257886	10.215	89.785
+seq: 25903960	2646074	23257886	10.215	89.785
+Completed processing P1432_15_Rat_164_BATx_Leptin_S15_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_15_Rat_164_BATx_Leptin_S15_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_15_Rat_164_BATx_Leptin_S15_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_16_Rat_53_BATsx_Leptin_S16_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_16_Rat_53_BATsx_Leptin_S16_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_16_Rat_53_BATsx_Leptin_S16_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_16_Rat_53_BATsx_Leptin_S16_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_16_Rat_53_BATsx_Leptin_S16_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_33550
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 25826832	1619144	24207688	6.269	93.731
+seq: 25826832	1619144	24207688	6.269	93.731
+Completed processing P1432_16_Rat_53_BATsx_Leptin_S16_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_16_Rat_53_BATsx_Leptin_S16_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_16_Rat_53_BATsx_Leptin_S16_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_17_Rat_71_BATsx_Leptin_S17_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_17_Rat_71_BATsx_Leptin_S17_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_17_Rat_71_BATsx_Leptin_S17_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_17_Rat_71_BATsx_Leptin_S17_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_17_Rat_71_BATsx_Leptin_S17_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_36670
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 31341462	2161777	29179685	6.897	93.103
+seq: 31341462	2161777	29179685	6.897	93.103
+Completed processing P1432_17_Rat_71_BATsx_Leptin_S17_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_17_Rat_71_BATsx_Leptin_S17_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_17_Rat_71_BATsx_Leptin_S17_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_18_Rat_101_BATsx_Leptin_S18_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_18_Rat_101_BATsx_Leptin_S18_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_18_Rat_101_BATsx_Leptin_S18_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_18_Rat_101_BATsx_Leptin_S18_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_18_Rat_101_BATsx_Leptin_S18_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_42474
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 26175808	1985096	24190712	7.584	92.416
+seq: 26175808	1985096	24190712	7.584	92.416
+Completed processing P1432_18_Rat_101_BATsx_Leptin_S18_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_18_Rat_101_BATsx_Leptin_S18_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_18_Rat_101_BATsx_Leptin_S18_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_19_Rat_132_BATsx_Leptin_S19_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_19_Rat_132_BATsx_Leptin_S19_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_19_Rat_132_BATsx_Leptin_S19_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_19_Rat_132_BATsx_Leptin_S19_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_19_Rat_132_BATsx_Leptin_S19_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_47213
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 21892461	2166175	19726286	9.895	90.105
+seq: 21892461	2166175	19726286	9.895	90.105
+Completed processing P1432_19_Rat_132_BATsx_Leptin_S19_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_19_Rat_132_BATsx_Leptin_S19_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_19_Rat_132_BATsx_Leptin_S19_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_1_Rat_60_intact_BAT_Leptin_S1_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_1_Rat_60_intact_BAT_Leptin_S1_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_1_Rat_60_intact_BAT_Leptin_S1_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_1_Rat_60_intact_BAT_Leptin_S1_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_1_Rat_60_intact_BAT_Leptin_S1_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_2378
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 24466127	1731705	22734422	7.078	92.922
+seq: 24466127	1731705	22734422	7.078	92.922
+Completed processing P1432_1_Rat_60_intact_BAT_Leptin_S1_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_1_Rat_60_intact_BAT_Leptin_S1_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_1_Rat_60_intact_BAT_Leptin_S1_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_20_Rat_155_BATsx_Leptin_S20_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_20_Rat_155_BATsx_Leptin_S20_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_20_Rat_155_BATsx_Leptin_S20_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_20_Rat_155_BATsx_Leptin_S20_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_20_Rat_155_BATsx_Leptin_S20_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_4641
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 25007425	1865141	23142284	7.458	92.542
+seq: 25007425	1865141	23142284	7.458	92.542
+Completed processing P1432_20_Rat_155_BATsx_Leptin_S20_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_20_Rat_155_BATsx_Leptin_S20_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_20_Rat_155_BATsx_Leptin_S20_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_21_Sham_1_Sham_S21_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_21_Sham_1_Sham_S21_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_21_Sham_1_Sham_S21_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_21_Sham_1_Sham_S21_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_21_Sham_1_Sham_S21_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_8203
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 25391550	1447238	23944312	5.700	94.300
+seq: 25391550	1447238	23944312	5.700	94.300
+Completed processing P1432_21_Sham_1_Sham_S21_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_21_Sham_1_Sham_S21_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_21_Sham_1_Sham_S21_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_22_Sham_3_Sham_S22_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_22_Sham_3_Sham_S22_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_22_Sham_3_Sham_S22_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_22_Sham_3_Sham_S22_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_22_Sham_3_Sham_S22_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_13879
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 19125403	1154255	17971148	6.035	93.965
+seq: 19125403	1154255	17971148	6.035	93.965
+Completed processing P1432_22_Sham_3_Sham_S22_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_22_Sham_3_Sham_S22_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_22_Sham_3_Sham_S22_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_23_Sham_4_Sham_S23_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_23_Sham_4_Sham_S23_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_23_Sham_4_Sham_S23_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_23_Sham_4_Sham_S23_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_23_Sham_4_Sham_S23_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_17036
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 25747377	2524662	23222715	9.806	90.194
+seq: 25747377	2524662	23222715	9.806	90.194
+Completed processing P1432_23_Sham_4_Sham_S23_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_23_Sham_4_Sham_S23_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_23_Sham_4_Sham_S23_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_24_Sham_5_Sham_S24_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_24_Sham_5_Sham_S24_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_24_Sham_5_Sham_S24_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_24_Sham_5_Sham_S24_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_24_Sham_5_Sham_S24_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_46664
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 26329510	1667404	24662106	6.333	93.667
+seq: 26329510	1667404	24662106	6.333	93.667
+Completed processing P1432_24_Sham_5_Sham_S24_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_24_Sham_5_Sham_S24_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_24_Sham_5_Sham_S24_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_25_Sham_6_Sham_S25_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_25_Sham_6_Sham_S25_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_25_Sham_6_Sham_S25_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_25_Sham_6_Sham_S25_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_25_Sham_6_Sham_S25_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_48496
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 25924720	2126214	23798506	8.201	91.799
+seq: 25924720	2126214	23798506	8.201	91.799
+Completed processing P1432_25_Sham_6_Sham_S25_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_25_Sham_6_Sham_S25_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_25_Sham_6_Sham_S25_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_26_Rat_60_Leptin_S26_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_26_Rat_60_Leptin_S26_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_26_Rat_60_Leptin_S26_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_26_Rat_60_Leptin_S26_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_26_Rat_60_Leptin_S26_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_3140
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 27359391	3386875	23972516	12.379	87.621
+seq: 27359391	3386875	23972516	12.379	87.621
+Completed processing P1432_26_Rat_60_Leptin_S26_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_26_Rat_60_Leptin_S26_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_26_Rat_60_Leptin_S26_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_27_Rat_54_Leptin_S27_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_27_Rat_54_Leptin_S27_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_27_Rat_54_Leptin_S27_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_27_Rat_54_Leptin_S27_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_27_Rat_54_Leptin_S27_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_6539
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 25373020	1920315	23452705	7.568	92.432
+seq: 25373020	1920315	23452705	7.568	92.432
+Completed processing P1432_27_Rat_54_Leptin_S27_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_27_Rat_54_Leptin_S27_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_27_Rat_54_Leptin_S27_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_28_Rat_35_Leptin_S28_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_28_Rat_35_Leptin_S28_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_28_Rat_35_Leptin_S28_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_28_Rat_35_Leptin_S28_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_28_Rat_35_Leptin_S28_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_10353
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 28214184	1481480	26732704	5.251	94.749
+seq: 28214184	1481480	26732704	5.251	94.749
+Completed processing P1432_28_Rat_35_Leptin_S28_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_28_Rat_35_Leptin_S28_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_28_Rat_35_Leptin_S28_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_29_Rat_34_Leptin_S29_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_29_Rat_34_Leptin_S29_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_29_Rat_34_Leptin_S29_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_29_Rat_34_Leptin_S29_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_29_Rat_34_Leptin_S29_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_12282
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 28094234	1742264	26351970	6.202	93.798
+seq: 28094234	1742264	26351970	6.202	93.798
+Completed processing P1432_29_Rat_34_Leptin_S29_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_29_Rat_34_Leptin_S29_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_29_Rat_34_Leptin_S29_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_2_Rat_61_intact_BAT_Leptin_S2_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_2_Rat_61_intact_BAT_Leptin_S2_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_2_Rat_61_intact_BAT_Leptin_S2_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_2_Rat_61_intact_BAT_Leptin_S2_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_2_Rat_61_intact_BAT_Leptin_S2_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_17955
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 32226658	3588556	28638102	11.135	88.865
+seq: 32226658	3588556	28638102	11.135	88.865
+Completed processing P1432_2_Rat_61_intact_BAT_Leptin_S2_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_2_Rat_61_intact_BAT_Leptin_S2_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_2_Rat_61_intact_BAT_Leptin_S2_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_30_Rat_36_Vehicle_S30_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_30_Rat_36_Vehicle_S30_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_30_Rat_36_Vehicle_S30_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_30_Rat_36_Vehicle_S30_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_30_Rat_36_Vehicle_S30_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_20306
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 25836949	1582908	24254041	6.127	93.873
+seq: 25836949	1582908	24254041	6.127	93.873
+Completed processing P1432_30_Rat_36_Vehicle_S30_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_30_Rat_36_Vehicle_S30_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_30_Rat_36_Vehicle_S30_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_31_Rat_168_Vehicle_S31_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_31_Rat_168_Vehicle_S31_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_31_Rat_168_Vehicle_S31_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_31_Rat_168_Vehicle_S31_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_31_Rat_168_Vehicle_S31_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_21910
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 26075984	1741487	24334497	6.679	93.321
+seq: 26075984	1741487	24334497	6.679	93.321
+Completed processing P1432_31_Rat_168_Vehicle_S31_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_31_Rat_168_Vehicle_S31_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_31_Rat_168_Vehicle_S31_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_32_Rat_169_Vehicle_S32_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_32_Rat_169_Vehicle_S32_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_32_Rat_169_Vehicle_S32_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_32_Rat_169_Vehicle_S32_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_32_Rat_169_Vehicle_S32_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_23698
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 27216818	2185441	25031377	8.030	91.970
+seq: 27216818	2185441	25031377	8.030	91.970
+Completed processing P1432_32_Rat_169_Vehicle_S32_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_32_Rat_169_Vehicle_S32_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_32_Rat_169_Vehicle_S32_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_33_Rat_171_Vehicle_S33_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_33_Rat_171_Vehicle_S33_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_33_Rat_171_Vehicle_S33_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_33_Rat_171_Vehicle_S33_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_33_Rat_171_Vehicle_S33_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_25545
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 44062575	1226596	42835979	2.784	97.216
+seq: 44062575	1226596	42835979	2.784	97.216
+Completed processing P1432_33_Rat_171_Vehicle_S33_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_33_Rat_171_Vehicle_S33_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_33_Rat_171_Vehicle_S33_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_34_Rat_85_BATsx_vehicle_S34_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_34_Rat_85_BATsx_vehicle_S34_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_34_Rat_85_BATsx_vehicle_S34_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_34_Rat_85_BATsx_vehicle_S34_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_34_Rat_85_BATsx_vehicle_S34_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_28054
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 30947123	2185653	28761470	7.063	92.937
+seq: 30947123	2185653	28761470	7.063	92.937
+Completed processing P1432_34_Rat_85_BATsx_vehicle_S34_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_34_Rat_85_BATsx_vehicle_S34_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_34_Rat_85_BATsx_vehicle_S34_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_35_Rat_89_BATsx_vehicle_S35_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_35_Rat_89_BATsx_vehicle_S35_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_35_Rat_89_BATsx_vehicle_S35_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_35_Rat_89_BATsx_vehicle_S35_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_35_Rat_89_BATsx_vehicle_S35_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_30338
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 23985564	2438137	21547427	10.165	89.835
+seq: 23985564	2438137	21547427	10.165	89.835
+Completed processing P1432_35_Rat_89_BATsx_vehicle_S35_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_35_Rat_89_BATsx_vehicle_S35_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_35_Rat_89_BATsx_vehicle_S35_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_36_Rat_109_BATsx_vehicle_S36_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_36_Rat_109_BATsx_vehicle_S36_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_36_Rat_109_BATsx_vehicle_S36_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_36_Rat_109_BATsx_vehicle_S36_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_36_Rat_109_BATsx_vehicle_S36_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_31462
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 26515167	2097498	24417669	7.911	92.089
+seq: 26515167	2097498	24417669	7.911	92.089
+Completed processing P1432_36_Rat_109_BATsx_vehicle_S36_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_36_Rat_109_BATsx_vehicle_S36_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_36_Rat_109_BATsx_vehicle_S36_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_37_Rat_142_BATsx_vehicle_S37_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_37_Rat_142_BATsx_vehicle_S37_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_37_Rat_142_BATsx_vehicle_S37_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_37_Rat_142_BATsx_vehicle_S37_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_37_Rat_142_BATsx_vehicle_S37_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_33421
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 28093975	2450862	25643113	8.724	91.276
+seq: 28093975	2450862	25643113	8.724	91.276
+Completed processing P1432_37_Rat_142_BATsx_vehicle_S37_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_37_Rat_142_BATsx_vehicle_S37_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_37_Rat_142_BATsx_vehicle_S37_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_38_Rat_29_BATsx_leptin_S38_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_38_Rat_29_BATsx_leptin_S38_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_38_Rat_29_BATsx_leptin_S38_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_38_Rat_29_BATsx_leptin_S38_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_38_Rat_29_BATsx_leptin_S38_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_35061
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 32171241	1871213	30300028	5.816	94.184
+seq: 32171241	1871213	30300028	5.816	94.184
+Completed processing P1432_38_Rat_29_BATsx_leptin_S38_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_38_Rat_29_BATsx_leptin_S38_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_38_Rat_29_BATsx_leptin_S38_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_39_Rat_101_BATsx_leptin_S39_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_39_Rat_101_BATsx_leptin_S39_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_39_Rat_101_BATsx_leptin_S39_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_39_Rat_101_BATsx_leptin_S39_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_39_Rat_101_BATsx_leptin_S39_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_37244
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 19019635	2253863	16765772	11.850	88.150
+seq: 19019635	2253863	16765772	11.850	88.150
+Completed processing P1432_39_Rat_101_BATsx_leptin_S39_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_39_Rat_101_BATsx_leptin_S39_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_39_Rat_101_BATsx_leptin_S39_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_3_Rat_62_intact_BAT_Leptin_S3_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_3_Rat_62_intact_BAT_Leptin_S3_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_3_Rat_62_intact_BAT_Leptin_S3_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_3_Rat_62_intact_BAT_Leptin_S3_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_3_Rat_62_intact_BAT_Leptin_S3_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_38352
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 1477607	134439	1343168	9.098	90.902
+seq: 1477607	134439	1343168	9.098	90.902
+Completed processing P1432_3_Rat_62_intact_BAT_Leptin_S3_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_3_Rat_62_intact_BAT_Leptin_S3_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_3_Rat_62_intact_BAT_Leptin_S3_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_40_Rat_155_BATsx_leptin_S40_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_40_Rat_155_BATsx_leptin_S40_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_40_Rat_155_BATsx_leptin_S40_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_40_Rat_155_BATsx_leptin_S40_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_40_Rat_155_BATsx_leptin_S40_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_38504
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 22020164	974658	21045506	4.426	95.574
+seq: 22020164	974658	21045506	4.426	95.574
+Completed processing P1432_40_Rat_155_BATsx_leptin_S40_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_40_Rat_155_BATsx_leptin_S40_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_40_Rat_155_BATsx_leptin_S40_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_41_Rat_156_BATsx_leptin_S41_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_41_Rat_156_BATsx_leptin_S41_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_41_Rat_156_BATsx_leptin_S41_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_41_Rat_156_BATsx_leptin_S41_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_41_Rat_156_BATsx_leptin_S41_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_39893
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 20644089	218975	20425114	1.061	98.939
+seq: 20644089	218975	20425114	1.061	98.939
+Completed processing P1432_41_Rat_156_BATsx_leptin_S41_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_41_Rat_156_BATsx_leptin_S41_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_41_Rat_156_BATsx_leptin_S41_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_42_Rat_64_Sham_S42_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_42_Rat_64_Sham_S42_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_42_Rat_64_Sham_S42_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_42_Rat_64_Sham_S42_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_42_Rat_64_Sham_S42_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_41629
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 23286399	1799502	21486897	7.728	92.272
+seq: 23286399	1799502	21486897	7.728	92.272
+Completed processing P1432_42_Rat_64_Sham_S42_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_42_Rat_64_Sham_S42_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_42_Rat_64_Sham_S42_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_43_Rat_23_Sham_S43_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_43_Rat_23_Sham_S43_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_43_Rat_23_Sham_S43_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_43_Rat_23_Sham_S43_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_43_Rat_23_Sham_S43_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_43187
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 22662372	985419	21676953	4.348	95.652
+seq: 22662372	985419	21676953	4.348	95.652
+Completed processing P1432_43_Rat_23_Sham_S43_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_43_Rat_23_Sham_S43_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_43_Rat_23_Sham_S43_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_44_Rat_22_Sham_S44_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_44_Rat_22_Sham_S44_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_44_Rat_22_Sham_S44_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_44_Rat_22_Sham_S44_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_44_Rat_22_Sham_S44_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_49048
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 26619725	1456235	25163490	5.471	94.529
+seq: 26619725	1456235	25163490	5.471	94.529
+Completed processing P1432_44_Rat_22_Sham_S44_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_44_Rat_22_Sham_S44_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_44_Rat_22_Sham_S44_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_45_Rat_33_Sham_S45_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_45_Rat_33_Sham_S45_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_45_Rat_33_Sham_S45_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_45_Rat_33_Sham_S45_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_45_Rat_33_Sham_S45_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_1737
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 27177534	1227163	25950371	4.515	95.485
+seq: 27177534	1227163	25950371	4.515	95.485
+Completed processing P1432_45_Rat_33_Sham_S45_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_45_Rat_33_Sham_S45_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_45_Rat_33_Sham_S45_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_46_Rat_61_EV_test_S46_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_46_Rat_61_EV_test_S46_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_46_Rat_61_EV_test_S46_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_46_Rat_61_EV_test_S46_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_46_Rat_61_EV_test_S46_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_3261
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 23819720	141797	23677923	0.595	99.405
+seq: 23819720	141797	23677923	0.595	99.405
+Completed processing P1432_46_Rat_61_EV_test_S46_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_46_Rat_61_EV_test_S46_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_46_Rat_61_EV_test_S46_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_47_Rat_64_EV_test_S47_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_47_Rat_64_EV_test_S47_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_47_Rat_64_EV_test_S47_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_47_Rat_64_EV_test_S47_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_47_Rat_64_EV_test_S47_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_4366
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 24186874	451992	23734882	1.869	98.131
+seq: 24186874	451992	23734882	1.869	98.131
+Completed processing P1432_47_Rat_64_EV_test_S47_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_47_Rat_64_EV_test_S47_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_47_Rat_64_EV_test_S47_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_48_Rat_78_EV_test_S48_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_48_Rat_78_EV_test_S48_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_48_Rat_78_EV_test_S48_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_48_Rat_78_EV_test_S48_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_48_Rat_78_EV_test_S48_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_5933
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 22841696	940783	21900913	4.119	95.881
+seq: 22841696	940783	21900913	4.119	95.881
+Completed processing P1432_48_Rat_78_EV_test_S48_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_48_Rat_78_EV_test_S48_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_48_Rat_78_EV_test_S48_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_4_Rat_56_intact_BAT_Leptin_S4_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_4_Rat_56_intact_BAT_Leptin_S4_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_4_Rat_56_intact_BAT_Leptin_S4_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_4_Rat_56_intact_BAT_Leptin_S4_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_4_Rat_56_intact_BAT_Leptin_S4_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_7700
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 25618127	2349334	23268793	9.171	90.829
+seq: 25618127	2349334	23268793	9.171	90.829
+Completed processing P1432_4_Rat_56_intact_BAT_Leptin_S4_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_4_Rat_56_intact_BAT_Leptin_S4_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_4_Rat_56_intact_BAT_Leptin_S4_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_5_Rat_120__intact_BAT_Leptin_S5_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_5_Rat_120__intact_BAT_Leptin_S5_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_5_Rat_120__intact_BAT_Leptin_S5_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_5_Rat_120__intact_BAT_Leptin_S5_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_5_Rat_120__intact_BAT_Leptin_S5_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_24289
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 20634189	59879	20574310	0.290	99.710
+seq: 20634189	59879	20574310	0.290	99.710
+Completed processing P1432_5_Rat_120__intact_BAT_Leptin_S5_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_5_Rat_120__intact_BAT_Leptin_S5_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_5_Rat_120__intact_BAT_Leptin_S5_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_6_Rat_36_intact_BAT_Vehicle_S6_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_6_Rat_36_intact_BAT_Vehicle_S6_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_6_Rat_36_intact_BAT_Vehicle_S6_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_6_Rat_36_intact_BAT_Vehicle_S6_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_6_Rat_36_intact_BAT_Vehicle_S6_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_14107
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 25233178	285712	24947466	1.132	98.868
+seq: 25233178	285712	24947466	1.132	98.868
+Completed processing P1432_6_Rat_36_intact_BAT_Vehicle_S6_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_6_Rat_36_intact_BAT_Vehicle_S6_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_6_Rat_36_intact_BAT_Vehicle_S6_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_7_Rat_40_intact_BAT_Vehicle_S7_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_7_Rat_40_intact_BAT_Vehicle_S7_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_7_Rat_40_intact_BAT_Vehicle_S7_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_7_Rat_40_intact_BAT_Vehicle_S7_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_7_Rat_40_intact_BAT_Vehicle_S7_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_15588
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 33042342	2602717	30439625	7.877	92.123
+seq: 33042342	2602717	30439625	7.877	92.123
+Completed processing P1432_7_Rat_40_intact_BAT_Vehicle_S7_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_7_Rat_40_intact_BAT_Vehicle_S7_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_7_Rat_40_intact_BAT_Vehicle_S7_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_8_Rat_135_intact_BAT_Vehicle_S8_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_8_Rat_135_intact_BAT_Vehicle_S8_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_8_Rat_135_intact_BAT_Vehicle_S8_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_8_Rat_135_intact_BAT_Vehicle_S8_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_8_Rat_135_intact_BAT_Vehicle_S8_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_17766
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 25202176	1870333	23331843	7.421	92.579
+seq: 25202176	1870333	23331843	7.421	92.579
+Completed processing P1432_8_Rat_135_intact_BAT_Vehicle_S8_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_8_Rat_135_intact_BAT_Vehicle_S8_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_8_Rat_135_intact_BAT_Vehicle_S8_L001_R1_001_trimmed_trimmed with Bowtie 2
+Processing P1432_9_Rat_136_intact_BAT_Vehicle_S9_L001_R1_001_trimmed_trimmed...
+Input file: ../P1432_fastq_unzipped/P1432_9_Rat_136_intact_BAT_Vehicle_S9_L001_R1_001_trimmed_trimmed.fastq
+Executing command:
+/scratch/aitken.n/data/miRNA/scripts/mirdeep2/bin/mapper.pl ../P1432_fastq_unzipped/P1432_9_Rat_136_intact_BAT_Vehicle_S9_L001_R1_001_trimmed_trimmed.fastq -e -j -m -h -p reference_genome_bowtie -s ../output/collapsed/P1432_9_Rat_136_intact_BAT_Vehicle_S9_L001_R1_001_trimmed_trimmed_collapsed.fa -t ../output/mapped/P1432_9_Rat_136_intact_BAT_Vehicle_S9_L001_R1_001_trimmed_trimmed_mapped.arf
+
+Log file for this run is in mapper_logs and called mapper.log_20064
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 27735818	3216322	24519496	11.596	88.404
+seq: 27735818	3216322	24519496	11.596	88.404
+Completed processing P1432_9_Rat_136_intact_BAT_Vehicle_S9_L001_R1_001_trimmed_trimmed with Bowtie 1
+Processing P1432_9_Rat_136_intact_BAT_Vehicle_S9_L001_R1_001_trimmed_trimmed with Bowtie 2...
+
+Could not locate a Bowtie index corresponding to basename "reference_genome_bowtie2"
+Please make sure you used bowtie version 1 to build the index.
+Usual index files have suffix .ebwt
+
+Completed processing P1432_9_Rat_136_intact_BAT_Vehicle_S9_L001_R1_001_trimmed_trimmed with Bowtie 2
+All samples processed successfully.
